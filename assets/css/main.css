@@ -116,6 +116,10 @@ img {
 	height: auto;
 }
 
+.text-justify {
+	text-align: justify;
+}
+
 /*-----------------------------------------------------------------
   1. >>> Headr Style
 ----------------------------------------------------------------*/
@@ -171,6 +175,25 @@ img {
 	color: #000;
 }
 
+.ds-nav ul li a {
+	color: #000;
+	font-size: 17px;
+}
+
+.ds-nav ul li a:hover {
+	color: #828282;
+}
+
+.ds-nav ul li ul li a{
+	color: #000;
+	font-size: 14px;
+}
+
+.ds-nav ul li ul li a:hover{
+	background-color:#d5d5d5;
+	font-size: 15px;
+}
+
 .ds-social {
 	list-style: none;
 	display: flex;
@@ -208,9 +231,10 @@ img {
   2. >>> Banner Style
 ----------------------------------------------------------------*/
 .ds-banner section {
-	padding-left: 70px;
+	padding-left: 0px;
 	padding-right: 100px;
 	padding-top: 70px;
+	text-align: center;
 }
 
 .ds-banner section h1 span {
@@ -261,7 +285,7 @@ img {
 
 /*-----------------------------------------------------------------
   3. >>> About Style
-----------------------------------------------------------------*/
+-----------------------------------------s-----------------------*/
 .ds-about-section {
 	padding-top: 60px;
 	padding-bottom: 120px;
@@ -281,7 +305,7 @@ img {
 
 .ds-about-section p {
 	color: #373737;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 40px;
 	font-weight: 300;
 	margin-bottom: 60px;
@@ -481,8 +505,6 @@ span.ds-department {
 	color: #F26464;
 }
 
-
-
 /*-------------------------------------------------------------------------------
  Responsive XS Style @media (max-width: 767px) 
 -------------------------------------------------------------------------------*/
@@ -549,7 +571,7 @@ span.ds-department {
 	.ds-about-section p,
 	.ds-work-content-sec p,
 	.ds-work-content-sec li {
-		font-size: 15px;
+		font-size: 16px;
 		line-height: 30px;
 		margin-bottom: 30px;
 	}
