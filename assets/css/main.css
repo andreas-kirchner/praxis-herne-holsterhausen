@@ -295,7 +295,7 @@ img {
 -----------------------------------------s-----------------------*/
 .ds-about-section {
 	padding-top: 60px;
-	padding-bottom: 120px;
+	padding-bottom: 80px;
 }
 
 .ds-heading {
@@ -345,7 +345,7 @@ img {
   5. >>> Experience Style
 ----------------------------------------------------------------*/
 .ds-experience-section {
-	padding-bottom: 120px;
+	padding-bottom: 80px;
 }
 
 .ds-experience-section img {
