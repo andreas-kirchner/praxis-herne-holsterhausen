@@ -304,7 +304,7 @@ img {
 	color: #000;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-size: 16px;
+	font-size: 18px;
 	border-bottom: 3px solid #F26464;
 	padding-bottom: 7px;
 	margin-bottom: 23px;
@@ -316,6 +316,8 @@ img {
 	line-height: 40px;
 	font-weight: 300;
 	margin-bottom: 60px;
+	hyphens: auto;
+	text-align: justify
 }
 
 .ds-button {
@@ -341,25 +343,60 @@ img {
 	vertical-align: middle;
 }
 
+/* images have 80% width and are centered 
+*/
+
+.ds-about-section img {
+	padding-bottom: 20px;
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+}
+
 /*-----------------------------------------------------------------
   5. >>> Experience Style
 ----------------------------------------------------------------*/
 .ds-experience-section {
+	padding-top: 20px;
 	padding-bottom: 80px;
 }
 
-.ds-experience-section img {
-	width: auto;
-	height: 200px;
-	overflow: hidden;
+.ds-experience-list {
+	padding-top: 5px;
+}
+
+.ds-experience-section h5 {
+	font-size: 18px;
 }
 
 .ds-experience-list section {
-	padding-right: 70px;
+	display: flex;
+	align-items: flex-start;
 }
 
-.ds-experience-list {
-	padding-top: 15px;
+.profile-image {
+	flex-shrink: 0;
+	width: 200px;
+	/* Set the fixed width for the profile image */
+	height: 250px;
+	/* Set the fixed height for the profile image */
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.profile-image img {
+	width: 100%;
+	/* Ensures the image covers the container */
+	height: 100%;
+	/* Ensures the image covers the container */
+	object-fit: cover;
+	/* Ensures the image covers the container and keeps the central part */
+}
+
+.profile-info {
+	padding-left: 40px;
 }
 
 .ds-officename {
@@ -422,40 +459,26 @@ span.ds-department {
 /*-----------------------------------------------------------------
   6. >>> Contact Style
 ----------------------------------------------------------------*/
+
 .ds-contact-section {
-	padding-top: 60px;
-	padding-bottom: 120px;
+	padding-top: 40px;
+	padding-bottom: 100px;
 }
 
 .ds-contact-section p {
 	color: #373737;
-	font-size: 24px;
+	font-size: 20px;
 	line-height: 40px;
 	font-weight: 300;
 	margin-bottom: 60px;
 }
 
-.ds-contact-button {
-	display: inline-block;
-	text-transform: uppercase;
-	font-size: 12px;
-	line-height: 13px;
-	font-weight: 600;
-	letter-spacing: 3px;
-	color: #F26464;
-	padding: 17px 30px;
-	border: 2px solid #F26464;
-	border-radius: 60px;
-}
-
-.ds-contact-button:hover {
-	background-color: #F26464;
-	color: #FFF;
-}
-
-.ds-contact-arrow-button i {
-	display: inline-block;
-	vertical-align: middle;
+.ds-contact-section img {
+	padding-bottom: 20px;
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	padding-top: 60px;
 }
 
 /*-----------------------------------------------------------------
