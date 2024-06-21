@@ -154,6 +154,7 @@ img {
 	color: #000;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .ds-logo span {
@@ -165,10 +166,16 @@ img {
 	background-color: #000;
 	border-radius: 4px;
 	color: #FFF;
-	font-size: 22px;
+	font-size: 27px;
 	font-weight: 600;
 	text-align: center;
 	margin-right: 12px;
+	line-height: 40px;
+	/* ensure text is centered vertically */
+	padding-left: 4px;
+	/* adjust the padding to center the text */
+	box-sizing: border-box;
+	/* include padding and border in the element's total width and height */
 }
 
 .ds-logo:hover {
@@ -184,13 +191,13 @@ img {
 	color: #828282;
 }
 
-.ds-nav ul li ul li a{
+.ds-nav ul li ul li a {
 	color: #000;
 	font-size: 14px;
 }
 
-.ds-nav ul li ul li a:hover{
-	background-color:#d5d5d5;
+.ds-nav ul li ul li a:hover {
+	background-color: #d5d5d5;
 	font-size: 15px;
 }
 
